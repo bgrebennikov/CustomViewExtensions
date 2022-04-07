@@ -7,12 +7,25 @@
     tools:context=".MainFragment">
 
     <com.github.bgrebennikov.customviewextensions.customViews.CustomToolbarView
+        android:id="@+id/mainToolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:title="@string/app_name"
         app:subtitle="@string/main_title"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/change_toolbar_data"
+        android:id="@+id/changeBtn"
+        app:layout_constraintTop_toBottomOf="@+id/mainToolbar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textAllCaps="false"
         />
 
 

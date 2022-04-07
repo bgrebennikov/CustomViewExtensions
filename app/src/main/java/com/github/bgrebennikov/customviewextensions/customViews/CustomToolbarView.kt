@@ -39,6 +39,14 @@ class CustomToolbarView @JvmOverloads constructor(
         }
     }
 
+    fun setTitle(title: String){
+        binding.title.text = title
+    }
+
+    fun setSubtitle(subtitle: String){
+        binding.subtitle.text = subtitle
+    }
+
     companion object{
         const val ATTR_TITLE = R.styleable.CustomToolbarView_title
         const val ATTR_SUBTITLE = R.styleable.CustomToolbarView_subtitle

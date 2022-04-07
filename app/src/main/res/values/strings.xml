@@ -3,4 +3,5 @@
     <string name="main_title">Example of custom view with using Kotlin Extensions</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="change_toolbar_data">Change Toolbar Data</string>
 </resources>
