@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CustomViewExtensions</string>
+    <string name="main_title">Example of custom view with using Kotlin Extensions</string>
+</resources>
